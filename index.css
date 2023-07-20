@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(183, 30, 230);
+}
+
+.container{
+
+    box-shadow: 0 0 10px rgba(0,0,0,5);
+    border: none;
+    border-radius: 9px;
+    background-color: white;
+    display: flex;
+    width: fit-content;
+    padding-right:40px;
+    padding-left: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 85px;
+    padding-bottom: 19px;
+
+}
+.main{
+    display: flex;
+    margin-top: 140px;
+    margin-left: 250px;
+    
+}
+.list{
+    margin: 10px;
+    list-style: none;
+    width:28px;
+    border-bottom: 3px solid black;
+    font-size: 38px;
+    font-weight: 500;
+    text-align: center;
+  
+}
+.img{
+    margin-top: 99px;
+    margin-left: 20px;
+}
+.button_container{
+    display: inline-block;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+h3{
+    text-align: center;
+
+}
+.whole{
+    margin-left: 200px;
+}
+
+button{
+    padding: 19px 24px;
+    background-color: rgb(183, 30, 230);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    margin: 7px;
+    box-shadow: 0 0 10px rgba(0,0,0,9);
+    transition: box-shadow 0.2s;
+
+}
+button:active{
+    box-shadow: none;
+}
+h2{
+    text-align: center;
+}
+
+#hintstyping{
+    color: red;
+}
+.last
+{
+    pointer-events: none;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.473);
+    position: fixed;   height: 100%;
+    display: flex;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    
+}
+.op{
+    opacity: 1;
+    pointer-events:auto;
+}
+.winner{
+  background-color: white;
+border: none;
+border-radius:8px;
+padding:32px 267px;
+ 
+}
+.winner img{
+    max-width: 130px;
+    margin:0px 114px;
+}
+.winner h1{
+    text-align: center;
+}
+.winner button {
+    margin-left: 119px;
+}
