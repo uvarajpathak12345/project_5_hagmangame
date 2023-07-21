@@ -436,7 +436,7 @@ function gettingrandomwords() {
   }
   number = Math.floor(Math.random() * arraylength);
   const { word, hint } = guessed[number];
-  console.log(word)
+  
   wordgetting = word;
   gettinghint.innerText = hint;
   wordlength = word.length;
